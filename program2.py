@@ -8,7 +8,7 @@ def num_islands(grid):
 
 
     def dfs(r, c):
-        # If we're out of bounds, hit water, or the cell is already visited, stop.
+   
         if (r < 0 or r >= rows or c < 0 or c >= cols or
                 grid[r][c] == 'W' or (r, c) in visited):
             return
