@@ -20,7 +20,7 @@ def decode_message(s: str, p: str) -> bool:
             if i < len(message) and (pattern[j] == '?' or pattern[j] == message[i]):
                 return is_match(i + 1, j + 1)
 
-            # If no match is found
+            
             return False
 
         return is_match(0, 0)
