@@ -30,12 +30,5 @@ def match(message, pattern):
     
     return is_match(0, 0)
 
-# Test cases
-print(match("aa", "a"))       # False
-print(match("aa", "*"))       # True
-print(match("cb", "?a"))      # False
-print(match("abcdef", "a*ef"))# True
-print(match("abcdef", "a?c*"))# True
-
 
         return False
