@@ -2,7 +2,7 @@ def decode_message(s: str, p: str) -> bool:
   
     def match(message, pattern):
         def is_match(i, j):
-            # If we reach the end of both the message and pattern, it's a match
+            
             if i == len(message) and j == len(pattern):
                 return True
             # If only the pattern is exhausted but not the message, it's not a match
