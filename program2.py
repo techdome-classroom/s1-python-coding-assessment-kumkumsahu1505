@@ -16,7 +16,7 @@ def decode_message(s: str, p: str) -> bool:
                     return True
                 return is_match(i, j + 1)
 
-            # Handle the '?' wildcard or exact character match
+            
             if i < len(message) and (pattern[j] == '?' or pattern[j] == message[i]):
                 return is_match(i + 1, j + 1)
 
