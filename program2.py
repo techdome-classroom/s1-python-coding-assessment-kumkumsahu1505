@@ -1,5 +1,5 @@
 def decode_message(s: str, p: str) -> bool:
-    # This function will call the match function to check if the message matches the pattern
+  
     def match(message, pattern):
         def is_match(i, j):
             # If we reach the end of both the message and pattern, it's a match
