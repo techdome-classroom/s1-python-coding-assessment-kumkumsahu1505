@@ -6,7 +6,7 @@ def num_islands(grid):
     visited = set()  
     islands = 0
 
-    # Helper function for Depth-First Search (DFS)
+
     def dfs(r, c):
         # If we're out of bounds, hit water, or the cell is already visited, stop.
         if (r < 0 or r >= rows or c < 0 or c >= cols or
