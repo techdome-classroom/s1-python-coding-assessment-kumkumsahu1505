@@ -25,5 +25,5 @@ def decode_message(s: str, p: str) -> bool:
 
         return is_match(0, 0)
 
-    # Call the match function with the input message and pattern
+   
     return match(s, p)
