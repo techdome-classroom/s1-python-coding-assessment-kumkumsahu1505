@@ -1,5 +1,4 @@
 def num_islands(grid):
-    # Edge case: if the grid is empty, return 0
     if not grid or len(grid) == 0:
         return 0
 
