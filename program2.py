@@ -3,7 +3,7 @@ def num_islands(grid):
         return 0
 
     rows, cols = len(grid), len(grid[0])
-    visited = set()  # To keep track of visited land cells
+    visited = set()  
     islands = 0
 
     # Helper function for Depth-First Search (DFS)
