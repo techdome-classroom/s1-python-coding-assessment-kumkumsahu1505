@@ -11,9 +11,7 @@ def decode_message(s: str, p: str) -> bool:
 
             # Handle the '*' wildcard
             if pattern[j] == '*':
-                # Try two options: 
-                # 1. '*' matches no characters -> move only in the pattern
-                # 2. '*' matches one or more characters -> move in both pattern and message
+                
                 if i < len(message) and is_match(i + 1, j):
                     return True
                 return is_match(i, j + 1)
