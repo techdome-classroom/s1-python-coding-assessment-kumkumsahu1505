@@ -9,7 +9,7 @@ def decode_message(s: str, p: str) -> bool:
             if j == len(pattern):
                 return False
 
-            # Handle the '*' wildcard
+            
             if pattern[j] == '*':
                 
                 if i < len(message) and is_match(i + 1, j):
