@@ -25,7 +25,7 @@ def num_islands(grid):
     # Loop through each cell in the grid
     for r in range(rows):
         for c in range(cols):
-            # If it's an unvisited land cell, start a DFS and count a new island
+           
             if grid[r][c] == 'L' and (r, c) not in visited:
                 islands += 1  # Found a new island
                 dfs(r, c)  # Mark all land cells connected to this one
